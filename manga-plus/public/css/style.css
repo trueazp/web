@@ -1,0 +1,48 @@
+.sampul {
+	width: 70px;
+}
+
+.table > tbody > tr > * {
+	vertical-align: middle;
+}
+
+.custom {
+	height: 435px;
+}
+
+.absolute-center {
+	margin-top: 30px;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#leftComicSegment {
+	width: 10px;
+}
+
+#rightComicSegment {
+	width: 90px;
+}
+
+#covers {
+	height: 450px;
+	width: 337px;
+	/* border-radius: 8px; */
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+#comic-details {
+	height: 500px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
