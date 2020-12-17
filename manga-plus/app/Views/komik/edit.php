@@ -53,7 +53,9 @@
 
     <div class="field">
       <label>Description</label>
-      <textarea cols="70" rows="10" type="text" class="form-control" id="description" name="description" value="<?= (old('description')) ? old('description') : $komik['description']; ?>"></textarea>
+      <textarea cols="70" rows="10" type="text" class="form-control" id="description" name="description">
+        <?= (old('description')) ? old('description') : $komik['description']; ?>
+      </textarea>
     </div>
 
     <div class="form-group row" style="margin-top: 10px;">
