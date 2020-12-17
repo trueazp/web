@@ -8,7 +8,7 @@
   </div>
 <?php endif; ?>
 
-<div class="ui container">
+<div class="ui container" id="toptop">
 
   <div class="ui center aligned segment">
     <h2 class="ui centered header">Comic List</h2>
@@ -48,6 +48,15 @@
     <?php endforeach; ?>
 
   </div>
+
+  <div class="ui center aligned container" style="margin-top: 150px;">
+    <a href="#toptop">
+      <div class="ui orange button">
+        Back to top
+      </div>
+    </a>
+  </div>
+
   <script>
     $('#test-card').dimmer({
       on: 'hover'
