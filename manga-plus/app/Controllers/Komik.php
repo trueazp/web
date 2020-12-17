@@ -77,7 +77,7 @@ class Komik extends BaseController
       'sampul' => [
         'rules' => 'max_size[sampul,1024]|is_image[sampul]|mime_in[sampul,image/jpg,image/jpeg,image/png]',
         'errors' => [
-          'max_size' => 'Ukuran file terlalu besar',
+          'max_size' => 'Ukuran file terlalu besar (max file 1mb)',
           'is_image' => 'File yang dipilih bukan gambar',
           'mime_in' => 'File yang dipilih bukan gambar'
         ]
@@ -148,7 +148,7 @@ class Komik extends BaseController
       'sampul' => [
         'rules' => 'max_size[sampul,1024]|is_image[sampul]|mime_in[sampul,image/jpg,image/jpeg,image/png]',
         'errors' => [
-          'max_size' => 'Ukuran file terlalu besar',
+          'max_size' => 'Ukuran file terlalu besar (max file 1mb)',
           'is_image' => 'File yang dipilih bukan gambar',
           'mime_in' => 'File yang dipilih bukan gambar'
         ]
