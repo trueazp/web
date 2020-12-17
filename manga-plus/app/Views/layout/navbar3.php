@@ -22,11 +22,13 @@
     </div>
   </a>
 
-  <a href="<?= base_url('/'); ?>" class="item">
-    <div>
-      <i class="low vision icon"></i>User Page
-    </div>
-  </a>
+  <?php if (logged_in()) : ?>
+    <a href="<?= base_url('/'); ?>" class="item">
+      <div>
+        <i class="low vision icon"></i>User Page
+      </div>
+    </a>
+  <?php endif; ?>
 
   <?php if (logged_in()) : ?>
     <a href="<?= base_url('/logout'); ?>" class="item right">

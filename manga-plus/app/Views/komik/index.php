@@ -23,7 +23,11 @@
 
       <!-- <div class="ui blurring piled segment custom transition hidden" id="welcomeMessage"> -->
 
-      <h2 class="ui center aligned header">Welcome Admin (^_^)</h2>
+      <?php if (logged_in()) : ?>
+        <h2 class="ui center aligned header">Welcome Admin (^_^)</h2>
+      <?php else : ?>
+        <h2 class="ui center aligned header">Welcome to MangaPlus</h2>
+      <?php endif; ?>
 
       <h3>
         Manga are comics or graphic novels originating from Japan.
